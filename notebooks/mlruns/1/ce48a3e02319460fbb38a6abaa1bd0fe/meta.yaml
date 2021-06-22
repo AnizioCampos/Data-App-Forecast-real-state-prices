@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/55219/Desktop/bootcamp/notebooks/mlruns/1/ce48a3e02319460fbb38a6abaa1bd0fe/artifacts
+end_time: 1624152586663
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: ce48a3e02319460fbb38a6abaa1bd0fe
+run_uuid: ce48a3e02319460fbb38a6abaa1bd0fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1624152585814
+status: 3
+tags: []
+user_id: '55219'
