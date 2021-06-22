@@ -1,9 +1,12 @@
 import pandas as pd
 import streamlit as st
+import pickle
 #from pycaret.regression import *
 
 # loading the trained model.
-model = load_model('model/modelo-final')
+#model = load_model('model/modelo-final')
+model = pickle.load('model/modelo-final')
+
 
 # carregando uma amostra dos dados.
 dataset = pd.read_csv('data/dataset.csv') 
