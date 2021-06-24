@@ -1,11 +1,11 @@
 import pandas as pd
 import streamlit as st
-import pickle
+from sklearn.externals import joblib
 #from pycaret.regression import *
 
 # loading the trained model.
 #model = load_model('model/modelo-final')
-model = pickle.load('model/modelo-final')
+model = joblib.load('model/modelo-final')
 
 
 # carregando uma amostra dos dados.
