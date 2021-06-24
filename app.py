@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 from pycaret.regression import *
+from catboost import CatBoostRegressor
 #import pickle
 
 # loading the trained model.
